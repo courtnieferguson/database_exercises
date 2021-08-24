@@ -1,4 +1,4 @@
-use codeup_test_db;
+USE codeup_test_db;
 
 TRUNCATE albums;
 
