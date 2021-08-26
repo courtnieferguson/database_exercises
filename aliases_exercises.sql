@@ -1,3 +1,6 @@
-use employees;
+USE employees;
 
-select CONCAT
+SELECT CONCAT(emp_no,' - ', last_name, ', ', first_name)
+           AS full_name, birth_date AS DOD
+FROM employees
+LIMIT 10;
